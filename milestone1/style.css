@@ -1,0 +1,44 @@
+a {
+                color:pink;
+                text-decoration: none;
+            }
+            header {
+                background-color: rgb(151, 43, 43);
+                color: white;
+            }
+            h1 {
+                font-size: 50px;
+                letter-spacing: normal;
+                text-shadow: 5px 5px 1px black;
+                text-transform: uppercase;
+                .bitcount-single-<uniquifier> {
+                font-family: "Bitcount Single", system-ui;
+                font-optical-sizing: auto;
+                font-weight: <weight>;
+                font-style: normal;
+                font-variation-settings:
+                "slnt" 0,
+                "CRSV" 0.5,
+                "ELSH" 0,
+                "ELXP" 0;
+                
+}
+            }
+            main {
+                font-size: 2em;
+            }
+            span {
+                font-size: 3rem;
+            }
+            #bluetext {
+                color: blue;
+            }
+            #greentext {
+                color: green;
+            }
+            p {
+                font-size: 2rem;
+                font-weight: bold;
+                line-height: 1rem;
+                text-indent: 50px;
+            }
