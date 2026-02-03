@@ -42,3 +42,6 @@ a {
                 line-height: 1rem;
                 text-indent: 50px;
             }
+            nav {
+                border:2px solid rgb(151, 43, 43)
+            }
