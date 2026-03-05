@@ -45,6 +45,7 @@ background-size: cover;
 height: 500px;
 grid-row: 3 / 4;
 grid-column: 1 / -1;
+background-position: 50% 50%;
 }
 p{
     text-align: center;
