@@ -99,7 +99,7 @@ nav li {
 }
 @media (max-width: 992px) {
   #wrapper {
-    grid-template-columns: 1fr 768px 1fr;
+    grid-template-columns: 1fr minmax(0, 768px) 1fr;
   }
 
   main {
@@ -113,22 +113,22 @@ nav li {
 
 @media (max-width: 768px) {
 
+
   #wrapper {
     grid-template-columns: 1fr;
   }
 
-  header, nav, #hero, main, footer {
-    grid-column: 1 / -1;
-  }
-
   main {
+    grid-column: 1 / -1;
     height: auto;
   }
+
 
   .grid-container {
     grid-template-columns: 1fr;
     width: 95%;
   }
+
 
   nav ul {
     flex-direction: column;
@@ -139,6 +139,7 @@ nav li {
     height: auto;
     padding: 10px 0;
   }
+
 
   #hero {
     height: 300px;
